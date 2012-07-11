@@ -7,14 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 #import "OpeningLogoViewController.h"
 
-@class LoginViewController;
+@class LoginViewController, StreamViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, OpeningLogoViewControllerDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, PFLogInViewControllerDelegate, OpeningLogoViewControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) OpeningLogoViewController *openingView;
-@property (strong, nonatomic) LoginViewController *streamView;
+@property (strong, nonatomic) LoginViewController *loginView;
+@property (strong, nonatomic) StreamViewController *streamView;
 
 @end

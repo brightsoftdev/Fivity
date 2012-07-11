@@ -16,27 +16,15 @@
 
 #pragma mark - 
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)viewDidUnload {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	
+	self.fields = PFLogInFieldsUsernameAndPassword | PFLogInFieldsLogInButton | PFLogInFieldsSignUpButton | PFLogInFieldsLogInButton | PFLogInFieldsFacebook;
+	
+	UIImageView *logoImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"FitivityLogo.png"]];
+	logoImage.frame = CGRectMake(self.logInView.logo.frame.origin.x, self.logInView.logo.frame.origin.y, self.logInView.logo.frame.size.width, self.logInView.logo.frame.size.height);
+	self.logInView.logo = logoImage;
+	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
 }
 
 @end

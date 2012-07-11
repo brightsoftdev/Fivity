@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CA2690015AE2A1400CD205C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1A75115ACFD4300C0FF75 /* Reachability.m */; };
+		6CA2690515AE2A5200CD205C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA2690415AE2A5200CD205C /* SystemConfiguration.framework */; };
+		6CA2691515AE2D2B00CD205C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA2691415AE2D2B00CD205C /* AudioToolbox.framework */; };
+		6CA2691715AE2D7A00CD205C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA2691615AE2D7A00CD205C /* CFNetwork.framework */; };
+		6CA2691915AE2DEB00CD205C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA2691815AE2DEB00CD205C /* MobileCoreServices.framework */; };
+		6CA2691B15AE2E1200CD205C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA2691A15AE2E1200CD205C /* Security.framework */; };
+		6CA2691F15AE2FBA00CD205C /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2691D15AE2FB900CD205C /* StreamViewController.m */; };
+		6CA2692015AE2FBA00CD205C /* StreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA2691E15AE2FB900CD205C /* StreamViewController.xib */; };
 		6CB1A72615ACFC1D00C0FF75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1A72515ACFC1D00C0FF75 /* UIKit.framework */; };
 		6CB1A72815ACFC1D00C0FF75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1A72715ACFC1D00C0FF75 /* Foundation.framework */; };
 		6CB1A72A15ACFC1D00C0FF75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1A72915ACFC1D00C0FF75 /* CoreGraphics.framework */; };
@@ -25,6 +33,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CA2690415AE2A5200CD205C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6CA2691415AE2D2B00CD205C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6CA2691615AE2D7A00CD205C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6CA2691815AE2DEB00CD205C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6CA2691A15AE2E1200CD205C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6CA2691C15AE2FB900CD205C /* StreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamViewController.h; sourceTree = "<group>"; };
+		6CA2691D15AE2FB900CD205C /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
+		6CA2691E15AE2FB900CD205C /* StreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StreamViewController.xib; path = Fitivity/StreamViewController.xib; sourceTree = "<group>"; };
 		6CB1A72115ACFC1D00C0FF75 /* Fitivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB1A72515ACFC1D00C0FF75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6CB1A72715ACFC1D00C0FF75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA2691B15AE2E1200CD205C /* Security.framework in Frameworks */,
+				6CA2691915AE2DEB00CD205C /* MobileCoreServices.framework in Frameworks */,
+				6CA2691715AE2D7A00CD205C /* CFNetwork.framework in Frameworks */,
+				6CA2691515AE2D2B00CD205C /* AudioToolbox.framework in Frameworks */,
+				6CA2690515AE2A5200CD205C /* SystemConfiguration.framework in Frameworks */,
 				6CB1A72615ACFC1D00C0FF75 /* UIKit.framework in Frameworks */,
 				6CB1A72815ACFC1D00C0FF75 /* Foundation.framework in Frameworks */,
 				6CB1A72A15ACFC1D00C0FF75 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +110,11 @@
 		6CB1A72415ACFC1D00C0FF75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CA2691A15AE2E1200CD205C /* Security.framework */,
+				6CA2691815AE2DEB00CD205C /* MobileCoreServices.framework */,
+				6CA2691615AE2D7A00CD205C /* CFNetwork.framework */,
+				6CA2691415AE2D2B00CD205C /* AudioToolbox.framework */,
+				6CA2690415AE2A5200CD205C /* SystemConfiguration.framework */,
 				6CB1A78215AD067000C0FF75 /* Parse.framework */,
 				6CB1A72515ACFC1D00C0FF75 /* UIKit.framework */,
 				6CB1A72715ACFC1D00C0FF75 /* Foundation.framework */,
@@ -108,6 +134,8 @@
 				6CB1A75815ACFFBC00C0FF75 /* OpeningLogoViewController.m */,
 				6CB1A77D15AD057900C0FF75 /* LoginViewController.h */,
 				6CB1A77E15AD057900C0FF75 /* LoginViewController.m */,
+				6CA2691C15AE2FB900CD205C /* StreamViewController.h */,
+				6CA2691D15AE2FB900CD205C /* StreamViewController.m */,
 			);
 			path = Fitivity;
 			sourceTree = "<group>";
@@ -139,6 +167,7 @@
 			children = (
 				6CB1A75915ACFFBC00C0FF75 /* OpeningLogoViewController.xib */,
 				6CB1A77F15AD057900C0FF75 /* LoginViewController.xib */,
+				6CA2691E15AE2FB900CD205C /* StreamViewController.xib */,
 			);
 			name = "Interface Files";
 			sourceTree = "<group>";
@@ -226,6 +255,7 @@
 				6CB1A75B15ACFFBC00C0FF75 /* OpeningLogoViewController.xib in Resources */,
 				6CB1A75E15AD004800C0FF75 /* FitivityLogo.png in Resources */,
 				6CB1A78115AD057900C0FF75 /* LoginViewController.xib in Resources */,
+				6CA2692015AE2FBA00CD205C /* StreamViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +271,8 @@
 				6CB1A74E15ACFC6800C0FF75 /* FConfig.m in Sources */,
 				6CB1A75A15ACFFBC00C0FF75 /* OpeningLogoViewController.m in Sources */,
 				6CB1A78015AD057900C0FF75 /* LoginViewController.m in Sources */,
+				6CA2690015AE2A1400CD205C /* Reachability.m in Sources */,
+				6CA2691F15AE2FBA00CD205C /* StreamViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +345,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fitivity/Fitivity-Prefix.pch";
 				INFOPLIST_FILE = "Fitivity/Fitivity-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -328,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fitivity/Fitivity-Prefix.pch";
 				INFOPLIST_FILE = "Fitivity/Fitivity-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -352,6 +386,7 @@
 				6CB1A73B15ACFC1D00C0FF75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

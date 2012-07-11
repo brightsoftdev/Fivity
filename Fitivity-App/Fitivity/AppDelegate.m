@@ -9,11 +9,13 @@
 #import "AppDelegate.h"
 #import "OpeningLogoViewController.h"
 #import "LoginViewController.h"
+#import "StreamViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
 @synthesize openingView = _openingView;
+@synthesize loginView = _loginView;
 @synthesize streamView = _streamView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -21,7 +23,8 @@
 	
 	//Initialize the first two view controllers
 	self.openingView = [[OpeningLogoViewController alloc] initWithNibName:@"OpeningLogoViewController" bundle:nil];
-	self.streamView = [[LoginViewController alloc] initWithNibName:@"StreamViewController" bundle:nil];
+	self.loginView = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+	self.streamView = [[StreamViewController alloc] initWithNibName:@"StreamViewController" bundle:nil];
 	
 	[self.openingView setDelegate:self];
 	
@@ -29,6 +32,8 @@
 	self.window.rootViewController = navController;
 	self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+	
+	[self.streamView presentModalViewController:self.loginView animated:YES]; 
 	
     return YES;
 }
@@ -60,7 +65,36 @@
 //	Once the logo is annimated into the place the login controller will be
 //	we fade in the login view controller.
 -(void)viewHasFinishedAnnimating:(OpeningLogoViewController *)view {
+
+}
+
+#pragma mark - PFLoginViewController Delegate
+
+/*!
+ Sent to the delegate to determine whether the log in request should be submitted to the server.
+ @param username the username the user tries to log in with.
+ @param password the password the user tries to log in with.
+ @result a boolean indicating whether the log in should proceed.
+ */
+- (BOOL)logInViewController:(PFLogInViewController *)logInController shouldBeginLogInWithUsername:(NSString *)username password:(NSString *)password {
 	
 }
+
+/*! @name Responding to Actions */
+/// Sent to the delegate when a PFUser is logged in.
+- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user {
+	[logInController dismissModalViewControllerAnimated:YES];
+}
+
+/// Sent to the delegate when the log in attempt fails.
+- (void)logInViewController:(PFLogInViewController *)logInController didFailToLogInWithError:(NSError *)error {
+	
+}
+
+/// Sent to the delegate when the log in screen is dismissed.
+- (void)logInViewControllerDidCancelLogIn:(PFLogInViewController *)logInController {
+	
+}
+
 
 @end

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 #import "OpeningLogoViewController.h"
 
-@interface LoginViewController : UIViewController
+@interface LoginViewController : PFLogInViewController
 
 @end
