@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CB1A72615ACFC1D00C0FF75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1A72515ACFC1D00C0FF75 /* UIKit.framework */; };
+		6CB1A72815ACFC1D00C0FF75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1A72715ACFC1D00C0FF75 /* Foundation.framework */; };
+		6CB1A72A15ACFC1D00C0FF75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1A72915ACFC1D00C0FF75 /* CoreGraphics.framework */; };
+		6CB1A73015ACFC1D00C0FF75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1A72E15ACFC1D00C0FF75 /* InfoPlist.strings */; };
+		6CB1A73215ACFC1D00C0FF75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1A73115ACFC1D00C0FF75 /* main.m */; };
+		6CB1A73615ACFC1D00C0FF75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1A73515ACFC1D00C0FF75 /* AppDelegate.m */; };
+		6CB1A74E15ACFC6800C0FF75 /* FConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1A74D15ACFC6800C0FF75 /* FConfig.m */; };
+		6CB1A75515ACFF7800C0FF75 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1A75315ACFF7800C0FF75 /* background.png */; };
+		6CB1A75615ACFF7800C0FF75 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1A75415ACFF7800C0FF75 /* background@2x.png */; };
+		6CB1A75A15ACFFBC00C0FF75 /* OpeningLogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1A75815ACFFBC00C0FF75 /* OpeningLogoViewController.m */; };
+		6CB1A75B15ACFFBC00C0FF75 /* OpeningLogoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1A75915ACFFBC00C0FF75 /* OpeningLogoViewController.xib */; };
+		6CB1A75E15AD004800C0FF75 /* FitivityLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1A75D15AD004800C0FF75 /* FitivityLogo.png */; };
+		6CB1A78015AD057900C0FF75 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1A77E15AD057900C0FF75 /* LoginViewController.m */; };
+		6CB1A78115AD057900C0FF75 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1A77F15AD057900C0FF75 /* LoginViewController.xib */; };
+		6CB1A78315AD067000C0FF75 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1A78215AD067000C0FF75 /* Parse.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CB1A72115ACFC1D00C0FF75 /* Fitivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB1A72515ACFC1D00C0FF75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CB1A72715ACFC1D00C0FF75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CB1A72915ACFC1D00C0FF75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CB1A72D15ACFC1D00C0FF75 /* Fitivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fitivity-Info.plist"; sourceTree = "<group>"; };
+		6CB1A72F15ACFC1D00C0FF75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CB1A73115ACFC1D00C0FF75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CB1A73315ACFC1D00C0FF75 /* Fitivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitivity-Prefix.pch"; sourceTree = "<group>"; };
+		6CB1A73415ACFC1D00C0FF75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CB1A73515ACFC1D00C0FF75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CB1A74C15ACFC6800C0FF75 /* FConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FConfig.h; sourceTree = "<group>"; };
+		6CB1A74D15ACFC6800C0FF75 /* FConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FConfig.m; sourceTree = "<group>"; };
+		6CB1A75015ACFD4300C0FF75 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6CB1A75115ACFD4300C0FF75 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6CB1A75315ACFF7800C0FF75 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		6CB1A75415ACFF7800C0FF75 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		6CB1A75715ACFFBC00C0FF75 /* OpeningLogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningLogoViewController.h; sourceTree = "<group>"; };
+		6CB1A75815ACFFBC00C0FF75 /* OpeningLogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningLogoViewController.m; sourceTree = "<group>"; };
+		6CB1A75915ACFFBC00C0FF75 /* OpeningLogoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OpeningLogoViewController.xib; path = Fitivity/OpeningLogoViewController.xib; sourceTree = "<group>"; };
+		6CB1A75D15AD004800C0FF75 /* FitivityLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FitivityLogo.png; sourceTree = "<group>"; };
+		6CB1A77D15AD057900C0FF75 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6CB1A77E15AD057900C0FF75 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6CB1A77F15AD057900C0FF75 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Fitivity/LoginViewController.xib; sourceTree = "<group>"; };
+		6CB1A78215AD067000C0FF75 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CB1A71E15ACFC1D00C0FF75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB1A72615ACFC1D00C0FF75 /* UIKit.framework in Frameworks */,
+				6CB1A72815ACFC1D00C0FF75 /* Foundation.framework in Frameworks */,
+				6CB1A72A15ACFC1D00C0FF75 /* CoreGraphics.framework in Frameworks */,
+				6CB1A78315AD067000C0FF75 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB1A71615ACFC1D00C0FF75 = {
+			isa = PBXGroup;
+			children = (
+				6CB1A74A15ACFC4100C0FF75 /* Images */,
+				6CB1A72B15ACFC1D00C0FF75 /* Fitivity */,
+				6CB1A74B15ACFC4900C0FF75 /* Interface Files */,
+				6CB1A72C15ACFC1D00C0FF75 /* Supporting Files */,
+				6CB1A72415ACFC1D00C0FF75 /* Frameworks */,
+				6CB1A72215ACFC1D00C0FF75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CB1A72215ACFC1D00C0FF75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A72115ACFC1D00C0FF75 /* Fitivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CB1A72415ACFC1D00C0FF75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A78215AD067000C0FF75 /* Parse.framework */,
+				6CB1A72515ACFC1D00C0FF75 /* UIKit.framework */,
+				6CB1A72715ACFC1D00C0FF75 /* Foundation.framework */,
+				6CB1A72915ACFC1D00C0FF75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CB1A72B15ACFC1D00C0FF75 /* Fitivity */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A73415ACFC1D00C0FF75 /* AppDelegate.h */,
+				6CB1A73515ACFC1D00C0FF75 /* AppDelegate.m */,
+				6CB1A74C15ACFC6800C0FF75 /* FConfig.h */,
+				6CB1A74D15ACFC6800C0FF75 /* FConfig.m */,
+				6CB1A75715ACFFBC00C0FF75 /* OpeningLogoViewController.h */,
+				6CB1A75815ACFFBC00C0FF75 /* OpeningLogoViewController.m */,
+				6CB1A77D15AD057900C0FF75 /* LoginViewController.h */,
+				6CB1A77E15AD057900C0FF75 /* LoginViewController.m */,
+			);
+			path = Fitivity;
+			sourceTree = "<group>";
+		};
+		6CB1A72C15ACFC1D00C0FF75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A74F15ACFD3600C0FF75 /* Reachability */,
+				6CB1A72D15ACFC1D00C0FF75 /* Fitivity-Info.plist */,
+				6CB1A72E15ACFC1D00C0FF75 /* InfoPlist.strings */,
+				6CB1A73115ACFC1D00C0FF75 /* main.m */,
+				6CB1A73315ACFC1D00C0FF75 /* Fitivity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = Fitivity;
+			sourceTree = "<group>";
+		};
+		6CB1A74A15ACFC4100C0FF75 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A75C15AD004000C0FF75 /* Logos */,
+				6CB1A75215ACFF7000C0FF75 /* Backgrounds */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6CB1A74B15ACFC4900C0FF75 /* Interface Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A75915ACFFBC00C0FF75 /* OpeningLogoViewController.xib */,
+				6CB1A77F15AD057900C0FF75 /* LoginViewController.xib */,
+			);
+			name = "Interface Files";
+			sourceTree = "<group>";
+		};
+		6CB1A74F15ACFD3600C0FF75 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A75015ACFD4300C0FF75 /* Reachability.h */,
+				6CB1A75115ACFD4300C0FF75 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		6CB1A75215ACFF7000C0FF75 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A75315ACFF7800C0FF75 /* background.png */,
+				6CB1A75415ACFF7800C0FF75 /* background@2x.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		6CB1A75C15AD004000C0FF75 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A75D15AD004800C0FF75 /* FitivityLogo.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CB1A72015ACFC1D00C0FF75 /* Fitivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB1A73915ACFC1D00C0FF75 /* Build configuration list for PBXNativeTarget "Fitivity" */;
+			buildPhases = (
+				6CB1A71D15ACFC1D00C0FF75 /* Sources */,
+				6CB1A71E15ACFC1D00C0FF75 /* Frameworks */,
+				6CB1A71F15ACFC1D00C0FF75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitivity;
+			productName = Fitivity;
+			productReference = 6CB1A72115ACFC1D00C0FF75 /* Fitivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CB1A71815ACFC1D00C0FF75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Nathaniel Doe";
+			};
+			buildConfigurationList = 6CB1A71B15ACFC1D00C0FF75 /* Build configuration list for PBXProject "Fitivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CB1A71615ACFC1D00C0FF75;
+			productRefGroup = 6CB1A72215ACFC1D00C0FF75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB1A72015ACFC1D00C0FF75 /* Fitivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB1A71F15ACFC1D00C0FF75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB1A73015ACFC1D00C0FF75 /* InfoPlist.strings in Resources */,
+				6CB1A75515ACFF7800C0FF75 /* background.png in Resources */,
+				6CB1A75615ACFF7800C0FF75 /* background@2x.png in Resources */,
+				6CB1A75B15ACFFBC00C0FF75 /* OpeningLogoViewController.xib in Resources */,
+				6CB1A75E15AD004800C0FF75 /* FitivityLogo.png in Resources */,
+				6CB1A78115AD057900C0FF75 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB1A71D15ACFC1D00C0FF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB1A73215ACFC1D00C0FF75 /* main.m in Sources */,
+				6CB1A73615ACFC1D00C0FF75 /* AppDelegate.m in Sources */,
+				6CB1A74E15ACFC6800C0FF75 /* FConfig.m in Sources */,
+				6CB1A75A15ACFFBC00C0FF75 /* OpeningLogoViewController.m in Sources */,
+				6CB1A78015AD057900C0FF75 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CB1A72E15ACFC1D00C0FF75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB1A72F15ACFC1D00C0FF75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CB1A73715ACFC1D00C0FF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CB1A73815ACFC1D00C0FF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CB1A73A15ACFC1D00C0FF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitivity/Fitivity-Prefix.pch";
+				INFOPLIST_FILE = "Fitivity/Fitivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CB1A73B15ACFC1D00C0FF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitivity/Fitivity-Prefix.pch";
+				INFOPLIST_FILE = "Fitivity/Fitivity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CB1A71B15ACFC1D00C0FF75 /* Build configuration list for PBXProject "Fitivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB1A73715ACFC1D00C0FF75 /* Debug */,
+				6CB1A73815ACFC1D00C0FF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB1A73915ACFC1D00C0FF75 /* Build configuration list for PBXNativeTarget "Fitivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB1A73A15ACFC1D00C0FF75 /* Debug */,
+				6CB1A73B15ACFC1D00C0FF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CB1A71815ACFC1D00C0FF75 /* Project object */;
+}
