@@ -17,7 +17,10 @@
 
 // Determine if the device has an internet connection
 - (BOOL)connected;
+- (BOOL)shouldLogIn;
 
+- (NSString *)getParseAppID;
+- (NSString *)getParseClientKey;
 - (NSString *)getFacebookAppID;
 - (NSString *)getGoogleAnalyticsID;
 

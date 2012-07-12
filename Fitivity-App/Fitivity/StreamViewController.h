@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
-@interface StreamViewController : UIViewController
+#import "OpeningLogoViewController.h"
+
+@class LoginViewController;
+
+@interface StreamViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, PFLogInViewControllerDelegate, OpeningLogoViewControllerDelegate> {
+	BOOL openingViewShowing;
+}
+
+@property (nonatomic, retain) LoginViewController *loginView;
 
 @end

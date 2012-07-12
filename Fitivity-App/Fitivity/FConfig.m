@@ -9,6 +9,8 @@
 #import "FConfig.h"
 #import "Reachability.h"
 
+#define kParseAppID			@"MmUj6HxQcfLSOUs31lG7uNVx9sl5dZR6gv0FqGHq"
+#define kParseClientKey		@"krpZsVM2UrU71NCxDbdAmbEMq1EXdpygkl251Wjl"
 #define kFacebookAppID		@""
 #define kGoogleAnalyticsID	@""
 
@@ -36,7 +38,19 @@ static FConfig *instance;
     return !(netStatus == NotReachable);
 }
 
+- (BOOL)shouldLogIn {
+	return YES;
+}
+
 #pragma mark - NSString methods 
+
+- (NSString *)getParseAppID {
+	return kParseAppID;
+}
+
+- (NSString *)getParseClientKey {
+	return kParseClientKey;
+}
 
 - (NSString *)getFacebookAppID {
 	return kFacebookAppID;

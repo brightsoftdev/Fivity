@@ -19,12 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	self.fields = PFLogInFieldsUsernameAndPassword | PFLogInFieldsLogInButton | PFLogInFieldsSignUpButton | PFLogInFieldsLogInButton | PFLogInFieldsFacebook;
-	
 	UIImageView *logoImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"FitivityLogo.png"]];
-	logoImage.frame = CGRectMake(self.logInView.logo.frame.origin.x, self.logInView.logo.frame.origin.y, self.logInView.logo.frame.size.width, self.logInView.logo.frame.size.height);
+	logoImage.frame = CGRectMake(0, 0, 225, 100);
 	self.logInView.logo = logoImage;
 	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+	self.signUpController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
 }
 
 @end

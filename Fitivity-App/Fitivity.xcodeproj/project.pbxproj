@@ -51,8 +51,8 @@
 		6CB1A73315ACFC1D00C0FF75 /* Fitivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitivity-Prefix.pch"; sourceTree = "<group>"; };
 		6CB1A73415ACFC1D00C0FF75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CB1A73515ACFC1D00C0FF75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6CB1A74C15ACFC6800C0FF75 /* FConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FConfig.h; sourceTree = "<group>"; };
-		6CB1A74D15ACFC6800C0FF75 /* FConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FConfig.m; sourceTree = "<group>"; };
+		6CB1A74C15ACFC6800C0FF75 /* FConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FConfig.h; path = Fitivity/FConfig.h; sourceTree = "<group>"; };
+		6CB1A74D15ACFC6800C0FF75 /* FConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FConfig.m; path = Fitivity/FConfig.m; sourceTree = "<group>"; };
 		6CB1A75015ACFD4300C0FF75 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		6CB1A75115ACFD4300C0FF75 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		6CB1A75315ACFF7800C0FF75 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
@@ -87,6 +87,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CA2695A15AE63E900CD205C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A74C15ACFC6800C0FF75 /* FConfig.h */,
+				6CB1A74D15ACFC6800C0FF75 /* FConfig.m */,
+			);
+			name = Config;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6CA2695B15AE640400CD205C /* Opening */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1A75715ACFFBC00C0FF75 /* OpeningLogoViewController.h */,
+				6CB1A75815ACFFBC00C0FF75 /* OpeningLogoViewController.m */,
+				6CB1A77D15AD057900C0FF75 /* LoginViewController.h */,
+				6CB1A77E15AD057900C0FF75 /* LoginViewController.m */,
+			);
+			name = Opening;
+			sourceTree = "<group>";
+		};
 		6CB1A71615ACFC1D00C0FF75 = {
 			isa = PBXGroup;
 			children = (
@@ -128,12 +149,8 @@
 			children = (
 				6CB1A73415ACFC1D00C0FF75 /* AppDelegate.h */,
 				6CB1A73515ACFC1D00C0FF75 /* AppDelegate.m */,
-				6CB1A74C15ACFC6800C0FF75 /* FConfig.h */,
-				6CB1A74D15ACFC6800C0FF75 /* FConfig.m */,
-				6CB1A75715ACFFBC00C0FF75 /* OpeningLogoViewController.h */,
-				6CB1A75815ACFFBC00C0FF75 /* OpeningLogoViewController.m */,
-				6CB1A77D15AD057900C0FF75 /* LoginViewController.h */,
-				6CB1A77E15AD057900C0FF75 /* LoginViewController.m */,
+				6CA2695A15AE63E900CD205C /* Config */,
+				6CA2695B15AE640400CD205C /* Opening */,
 				6CA2691C15AE2FB900CD205C /* StreamViewController.h */,
 				6CA2691D15AE2FB900CD205C /* StreamViewController.m */,
 			);
